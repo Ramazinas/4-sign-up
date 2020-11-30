@@ -7,6 +7,10 @@ body {
         margin-left: calc(50% - 400px);
         width: 800px;
     }
+      h1 {}
+      footer {}
+        footer > a {}
+        footer > span {}
        .left-column { /* klases sukurimas */
             display: inline-block;
             float: left;
@@ -22,3 +26,12 @@ body {
             padding: 60px; /*  issiputimas */
             background-color: white;
         }
+        .close {}
+        .form {}
+        .form-row {}
+            label {}
+            input {}
+            .btn {}
+            .form-row > span {}
+            .form-row > a {}
+            
