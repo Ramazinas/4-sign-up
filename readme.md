@@ -9,7 +9,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/18-grupe-portfolio-saas-one/
+Site published at https://front-end-by-rimantas.github.io/
 
 Design: [Saas-one](https://altrcloud.ru/saasone/index-two)
 
