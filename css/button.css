@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(46, 46, 184);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px 5px #555;
+}
+.btn:hover {
+    background-color: rgb(46, 46, 187)
+    cursor: pointer;
+    box-shadow: 0 2px 10px #333;
+}

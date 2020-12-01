@@ -1,0 +1,50 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+.form-row {
+    display: inline-block;
+    width: 100%;
+}
+    .form-row + .form-row {
+        margin-top: 40px;
+    }
+
+    label {
+        display: inline-block;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        color: grey;
+        line-height: 17px;
+    }
+    input {
+        display: inline-block;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* arba linijos aukstis line-height: 40px; */
+    color: #f000;
+    border-bottom: 1px solid red;
+    }
+    .form-row > span {
+        display: inline-block;
+        float: left;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .form-row > a {
+        display: inline-block;
+        float: left;
+        font-size: 20px;
+        padding: 10px; 
+        line-height: 20px;
+        text-decoration: none;
+
+    }
+    
