@@ -59,11 +59,15 @@ body {
             width: 60px;
             height: 60px;
             text-align: center;
-            font-size: 30px;
+            font-size: 40px;
             line-height: 55px;
             position: absolute; /* ima "close" elementa ir stato ji ant virsaus */
             top: 0px; /* elemento koordinates */
             right: 0px; /* elemento koordinates */
+            transform: rotate(45deg);
+            transform-origin: center; /*  pasukti objekta (+) centro atzvilgiu */
+            color: lightgrey;
+            cursor: pointer;
         }
         .form {
             display: inline-block;
