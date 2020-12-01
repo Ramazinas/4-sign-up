@@ -1,13 +1,25 @@
 body {
     background-color: #3490DD;
 }
+    .bacground {
+        display: inline-block;
+        height: 100vh; /* 100 vh matmuo nurodo, jog siuo metu bus naudojama, 100 proc darbinio fono */
+        width: 100%;
+        background-image: url(../img/kalnas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: blur(40px);
+    }
     main { /* iscentravimas viso bloko calc(100% - 800px) / 2 */
         display: inline-block;
-        margin-top: 60px; /* atstumimas nuo virsaus */
-        margin-left: calc(50% - 400px);
+        /* margin-top: 60px; atstumimas nuo virsaus */ 
+        /* margin-left: calc(50% - 400px); */
         width: 800px;
-        
-        position: relative;
+        transform: translate(-50%,-50%);  /* pastato objekta per centra */
+        position: absolute;
+        top: 50%;
+        left: 50%;
     }
       h1 {
         color: white;
