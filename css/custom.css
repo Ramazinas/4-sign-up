@@ -6,27 +6,60 @@ body {
         margin-top: 60px; /* atstumimas nuo virsaus */
         margin-left: calc(50% - 400px);
         width: 800px;
+        
+        position: relative;
     }
-      h1 {}
-      footer {}
-        footer > a {}
-        footer > span {}
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 50;
+        text-transform: ;
+      }
+      footer {
+          position: absolute;
+          bottom: 20px;
+          color: white;
+      }
+        footer > a {
+            color: white;
+            text-decoration: none;
+        }
+        footer > span {
+            color: white;
+            text-decoration: none;
+        }
        .left-column { /* klases sukurimas */
             display: inline-block;
             float: left;
             padding: 40px;
             width: 40%;
-            margin-top: 20px;
             background-color: #3E42AE;
+
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
         }
        .right-column {
             display: inline-block;
-            float: left;
+            float: right; /* Right, nes uzdengia foto jei butu left */
             width: 60%;
             padding: 60px; /*  issiputimas */
             background-color: white;
+
+            position: relative; /* susiurbia "close" pas save */
         }
-        .close {}
+        .close {
+            display: inline-block;
+            float: left;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 30px;
+            line-height: 55px;
+            position: absolute; /* ima "close" elementa ir stato ji ant virsaus */
+            top: 0px; /* elemento koordinates */
+            right: 0px; /* elemento koordinates */
+        }
         .form {
             display: inline-block;
             width: 100%;
